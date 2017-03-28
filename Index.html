@@ -1,0 +1,193 @@
+<!-- Index.html -->
+<!-- Par Christian Dionne et Jacob Croteau -->
+<!-- Le 24 mars 2017 -->
+<!-- Modifier le 28 mars 2017 -->
+
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>École du meuble-ProjetPi</title>
+
+    <!--Empêche de zoomer sauf sur un cell / tablette-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+
+    <!--Instanciation des librairie de Bootstap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Fin Bootstrap-->
+
+    <!--lien vers le fichier CSS-->
+    <link rel="stylesheet" href="Css.css">
+
+    <!--lien vers le fichier JavaScript-->
+    <link rel="script" href="Script.js">
+
+</head>
+<body>
+    <!-- Prendre exemple sur la partie du Scaced Layout -->
+
+    <div class="wrapper">
+        <h4 class="align-center"><strong>Programmation Des Cours</strong></h4> <!-- Aligne u centre le titre -->
+        <div class="seperator size-mini height-small"><span></span></div>
+
+        <div class="spacer spacer-small"></div>
+
+        <ul id="portfolio-filter2" class="filter clearfix" data-related-grid="portfolio-grid2">
+            <li><a class="active" href="#" data-option-value="*">All</a></li>
+            <li><a data-option-value=".branding" href="#" title="Branding">Branding</a></li>
+            <li><a data-option-value=".web" href="#" title="Web">Web</a></li>
+            <li><a data-option-value=".motion" href="#" title="Motion">Motion</a></li>
+        </ul>                                                       
+    </div> <!-- END .wrapper --> 
+
+    <div id="portfolio-grid2" class="masonry portfolio-entries portfolio-spaced clearfix" data-maxitemwidth="370">
+
+        <div class="portfolio-masonry-entry masonry-item branding">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Branding</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item web">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Web</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item motion">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Motion</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item web">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Web</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item branding">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Branding</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item web">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Web</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item motion">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Motion</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+        <div class="portfolio-masonry-entry masonry-item web">
+            <div class="entry-thumb portfolio-thumb">
+                <div class="imgoverlay text-light">
+                    <a href="#" class="load-content">
+                        <img src="files/uploads/550x350.jpg" alt="SEO IMAGE NAME" />
+                        <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Web</h6></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="entry-intro portfolio-intro">
+                <div class="intro-headline portfolio-intro-headline">
+                    <h5 class="portfolio-name"><a href="#" class="load-content"><strong>Project Name</strong></a></h5>
+                </div>
+            </div>
+        </div> <!-- END .portfolio-masonry-entry -->
+
+    </div> <!-- END #portfolio-grid1 -->
+    <!-- Fin du site (menu / carré) -->
+</body>
+</html>
